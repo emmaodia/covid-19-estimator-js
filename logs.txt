@@ -1,0 +1,4 @@
+GET		/api/v1/on-covid-19/		404		10ms
+GET		/api/v1/on-covid-19/json		404		02ms
+GET		/api/v1/on-covid-19/json		404		01ms
+GET		/api/v1/on-covid-19/		404		01ms

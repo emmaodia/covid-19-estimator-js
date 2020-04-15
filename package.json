@@ -6,15 +6,8 @@
   "private": false,
   "nodemonConfig": {
     "exec": "yarn run dev",
-    "watch": [
-      "src/*",
-      "dist/*"
-    ],
-    "ignore": [
-      "**/__tests__/**",
-      "*.test.js",
-      "*.spec.js"
-    ]
+    "watch": ["src/*", "dist/*"],
+    "ignore": ["**/__tests__/**", "*.test.js", "*.spec.js"]
   },
   "scripts": {
     "start": "yarn run build && node dist/index.js",
