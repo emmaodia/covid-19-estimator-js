@@ -10,7 +10,6 @@ app.use(corsHandler);
 app.use(express.json());// parse request data to JSON object
 app.use(processingTimeHandler);
 
-app.use(express.static(path.join(__dirname, '../public')));
 app.use('/api/v1', routesHandler(express.Router()), errorHandler);
 
 const server = app.listen(process.env.PORT || 2020, (error) => {
